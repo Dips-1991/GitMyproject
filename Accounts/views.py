@@ -2,6 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 
+#This is for add
 def Add(request):
     
     num1= int(request.POST['num1'])
